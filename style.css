@@ -31,21 +31,19 @@ a:hover {
   color: black;
 }
 
-@media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
-  .container {
-    width: 700px;
-    text-align: center;
-  }
+.container {
+  width: 500px;
+  margin: 0 auto;
 }
 
 .card {
   background: white;
   border: rgb(100, 100, 100);
-  border-radius: 10px;
+  border-radius: 4px;
   box-shadow: 0px 10px 30px rgba(0,0,0,0.1);;
-  padding: 20px;
+  padding: 30px;
   margin: 20px;
+  text-align: center;
 }
 
 .img-circle {
@@ -64,9 +62,8 @@ a:hover {
 
 .list-inline i:hover {
   color: black;
-  }
+}
 
 .list-inline i {
   font-size: 50px;
-  }
-/*button-#A846A0
+}
